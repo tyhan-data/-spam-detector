@@ -2,6 +2,10 @@
 
 Spam detector created with Multinomial Naive Bayes.
 
+## 🌐 Live Web App
+
+Try the app here: https://bcftchnrzapp4cgylunkqjv.streamlit.app/
+
 ## Files
 ```
 spam_app/
