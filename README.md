@@ -1,6 +1,6 @@
 # Spam Detector 🛡️
 
-Multinomial Naive Bayes দিয়ে তৈরি spam detector।
+Spam detector created with Multinomial Naive Bayes.
 
 ## Files
 ```
@@ -11,22 +11,22 @@ spam_app/
 └── Count_Vectorizer.joblib
 ```
 
-## Local এ চালাও
+## Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Streamlit Cloud এ deploy করো (free)
+## Deploy on Streamlit Cloud (free)
 
-1. এই folder টা GitHub এ push করো
-2. https://share.streamlit.io তে যাও
-3. "New app" → তোমার repo → `app.py` select করো
+1. Push this folder to GitHub
+2. Go to https://share.streamlit.io
+3. "New app" → select your repo → select `app.py`
 4. Deploy!
 
-## Hugging Face Spaces এ deploy করো (free)
+## Deploy on Hugging Face Spaces (free)
 
-1. https://huggingface.co/new-space এ যাও
-2. SDK: Streamlit select করো
-3. Files upload করো (app.py, requirements.txt, দুটো .joblib)
+1. Go to https://huggingface.co/new-space
+2. Select SDK: Streamlit
+3. Upload files (app.py, requirements.txt, both .joblib files)
 4. Done!
